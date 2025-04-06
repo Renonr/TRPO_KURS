@@ -17,4 +17,4 @@ RUN mvn clean package -DskipTests
 EXPOSE 8080
 
 # Запуск приложения
-CMD ["java", "-jar", "target/your-app-name.jar"]
+CMD ["java", "-jar", "target/airlines-0.0.1-SNAPSHOT.jar"]
