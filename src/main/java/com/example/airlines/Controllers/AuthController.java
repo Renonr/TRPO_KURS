@@ -30,7 +30,7 @@ import org.springframework.security.core.Authentication;
 
 import java.util.Collections;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://kursovaia-trpo.onrender.com")
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
