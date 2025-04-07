@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.ac368335.css",
-    "main.js": "/static/js/main.6ddaf1e5.js",
+    "main.js": "/static/js/main.ac6b738b.js",
     "static/media/Topki.webp": "/static/media/Topki.441fa63b56658dbf0388.webp",
     "index.html": "/index.html",
     "main.ac368335.css.map": "/static/css/main.ac368335.css.map",
-    "main.6ddaf1e5.js.map": "/static/js/main.6ddaf1e5.js.map"
+    "main.ac6b738b.js.map": "/static/js/main.ac6b738b.js.map"
   },
   "entrypoints": [
     "static/css/main.ac368335.css",
-    "static/js/main.6ddaf1e5.js"
+    "static/js/main.ac6b738b.js"
   ]
 }
