@@ -81,6 +81,16 @@ public class TicketService {
         return "TKT-" + UUID.randomUUID().toString().substring(0, 8).toUpperCase();
     }
 
+    public TicketDTO getTicketById(Long ticketId) {
+        Ticket ticket = ticketRepository.findById(ticketId)
+                .orElseThrow(() -> new BusinessLogicException("Билет не найден"));
+        return convertToDTO(ticket);
+    }
+
+    public boolean isTicketBelongsToUser(Long ticketId, Long userId) {
+        return ticketRepository.existsByTicketIdAndUserUserId(ticketId, userId);
+    }
+
     private TicketDTO convertToDTO(Ticket ticket) {
         return TicketDTO.builder()
                 .ticketId(ticket.getTicketId())
