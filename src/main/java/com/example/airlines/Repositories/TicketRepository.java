@@ -13,4 +13,6 @@ public interface TicketRepository extends JpaRepository<Ticket, Long> {
     boolean existsByUserAndFlight(User user, Flight flight);
 
     boolean existsByFlight(Flight flight);
+
+    boolean existsByTicketIdAndUserUserId(Long ticketId, Long userId);
 }
